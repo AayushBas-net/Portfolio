@@ -1,0 +1,479 @@
+/* =========================================================
+   BINHERO CASE STUDY
+   Scoped so it does NOT conflict with global portfolio styles
+   ========================================================= */
+
+.binhero-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background: var(--bg);
+  color: var(--text);
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  cursor: none;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.binhero-hero {
+  width: 100%;
+
+  background: var(--bg);
+  color: var(--text);
+
+  padding-top: 28px;
+
+  height: auto;
+  min-height: 0;
+
+  display: block;
+  align-items: initial;
+}
+
+.binhero-heroTop {
+  width: calc(100% - 192px);
+  margin: 0 96px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-size: 0.85rem;
+  line-height: 1.2;
+
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  color: var(--muted);
+}
+
+.binhero-heroTitle {
+  width: calc(100% - 192px);
+  margin: 45px 96px 55px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.binhero-heroTitle h1 {
+  margin: 0;
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  font-size: clamp(6rem, 11vw, 11rem);
+  font-weight: 500;
+
+  line-height: 0.78;
+  letter-spacing: -0.07em;
+
+  color: var(--text);
+}
+
+.binhero-heroTitle p {
+  width: 400px;
+  margin: 0 0 6px;
+
+  color: var(--muted);
+
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.binhero-heroImage {
+  width: 100%;
+  overflow: hidden;
+
+  background: var(--panel);
+}
+
+.binhero-heroImage img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   PROBLEM
+   ========================================================= */
+
+.binhero-problem {
+  width: 100%;
+
+  padding: 55px 96px 60px;
+
+  background: var(--bg);
+  color: var(--text);
+}
+
+.binhero-sectionTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: start;
+
+  margin-bottom: 30px;
+}
+
+.binhero-sectionTop h2 {
+  margin: 0;
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 500;
+
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.binhero-sideText {
+  width: 400px;
+  margin-left: auto;
+}
+
+.binhero-sideText p {
+  margin: 0 0 10px;
+
+  color: var(--muted);
+
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.binhero-greenText {
+  /* max-width: 1000px; */
+
+  margin: 0;
+
+  color: #00b95c;
+
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   LOGOS / ILLUSTRATION
+   ========================================================= */
+
+.binhero-logos {
+  width: 100%;
+  overflow: hidden;
+
+  background: var(--panel);
+}
+
+.binhero-logos img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   SOLUTION
+   ========================================================= */
+
+.binhero-solution {
+  width: 95%;
+
+  padding: 55px 96px 60px;
+
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+/* =========================================================
+   DESIGN SYSTEM
+   ========================================================= */
+
+.binhero-designSystem {
+  width: 100%;
+
+  background: var(--panel);
+  color: var(--text);
+}
+
+.binhero-designTitle {
+  width: 100%;
+
+  padding: 28px 16px;
+
+  background: var(--bg);
+  color: var(--text);
+
+  text-align: center;
+}
+
+.binhero-designTitle h2 {
+  margin: 0;
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  line-height: 1;
+}
+
+.binhero-designSystem img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   WIREFRAME + HIGH FIDELITY
+   ========================================================= */
+
+.binhero-visualBlock {
+  width: 100%;
+  margin-top: 96px;
+
+  overflow: hidden;
+
+  background: var(--bg);
+  color: var(--text);
+
+  text-align: center;
+}
+
+.binhero-visualBlock h2 {
+  margin: 0;
+
+  padding: 32px 10px 25px;
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  line-height: 1;
+}
+
+.binhero-visualBlock img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.binhero-hifi h2 {
+  padding-top: 32px;
+  padding-bottom: 25px;
+}
+
+
+/* =========================================================
+   MORE WORKS
+   ========================================================= */
+
+.binhero-moreWorks {
+  width: 100%;
+
+  padding: 0;
+
+  background: var(--bg);
+  color: var(--text);
+
+  text-align: center;
+}
+
+.binhero-moreWorks h2 {
+  margin: 0;
+
+  padding: 20px 10px 24px;
+
+  font-family: var(--font-space-grotesk), sans-serif;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  line-height: 1;
+}
+
+.binhero-moreWorksGrid {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 3px;
+}
+
+.binhero-moreWorksGrid img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.binhero-cta {
+  width: 100%;
+  min-height: 650px;
+
+  padding: 70px 96px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--bg);
+  color: var(--text);
+
+  text-align: center;
+}
+
+.binhero-cta h2 {
+  margin: 0;
+
+  font-family: var(--font-syne), sans-serif;
+
+  font-size: clamp(5rem, 9vw, 9rem);
+  font-weight: 500;
+
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 760px) {
+
+  .binhero-hero {
+    padding-top: 20px;
+  }
+
+  .binhero-heroTop {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+
+    font-size: 0.7rem;
+  }
+
+  .binhero-heroTitle {
+    width: calc(100% - 24px);
+    margin: 35px 12px 35px;
+
+    align-items: flex-end;
+  }
+
+  .binhero-heroTitle h1 {
+    font-size: clamp(3.5rem, 17vw, 6rem);
+  }
+
+  .binhero-heroTitle p {
+    width: 150px;
+
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  .binhero-problem,
+  .binhero-solution {
+    padding: 35px 12px 40px;
+  }
+
+  .binhero-sectionTop {
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 20px;
+  }
+
+  .binhero-sectionTop h2 {
+    font-size: 1.5rem;
+  }
+
+  .binhero-sideText {
+    width: 150px;
+  }
+
+  .binhero-sideText p {
+    font-size: 0.72rem;
+    line-height: 1.45;
+  }
+
+  .binhero-greenText {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .binhero-designTitle {
+    padding: 20px 12px;
+  }
+
+  .binhero-designTitle h2,
+  .binhero-visualBlock h2,
+  .binhero-moreWorks h2 {
+    font-size: 1.25rem;
+  }
+
+  .binhero-visualBlock h2 {
+    padding: 22px 10px 18px;
+  }
+
+  .binhero-moreWorks h2 {
+    padding: 16px 10px 18px;
+  }
+
+  .binhero-moreWorksGrid {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .binhero-cta {
+    min-height: 450px;
+
+    padding: 50px 12px;
+  }
+
+  .binhero-cta h2 {
+    font-size: clamp(2.8rem, 12vw, 4.5rem);
+  }
+}
+
+.binhero-moreWorks .works__head {
+  display: block;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.binhero-moreWorks .works__head h2 {
+  max-width: none;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.binhero-hifi img {
+  display: block;
+  width: calc(100% - 192px);
+  margin: 0 120px;
+  height: auto;
+}
